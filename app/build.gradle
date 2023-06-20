@@ -48,18 +48,18 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.10.0'
+    implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
-    implementation 'androidx.activity:activity-compose:1.7.0'
+    implementation 'androidx.activity:activity-compose:1.7.2'
     implementation platform('androidx.compose:compose-bom:2023.04.00')
     implementation 'androidx.compose.ui:ui'
     implementation 'androidx.compose.ui:ui-graphics'
     implementation 'androidx.compose.ui:ui-tooling-preview'
     implementation 'androidx.compose.material3:material3'
-    implementation 'androidx.navigation:navigation-compose:2.5.3'
+    implementation 'androidx.navigation:navigation-compose:2.6.0'
 
     // for TapsellPlus
-    implementation 'ir.tapsell.plus:tapsell-plus-sdk-android:2.1.9-rc04'
+    implementation 'ir.tapsell.plus:tapsell-plus-sdk-android:2.1.9'
 
     //for adMob
     implementation 'com.google.android.gms:play-services-ads:21.5.0'
