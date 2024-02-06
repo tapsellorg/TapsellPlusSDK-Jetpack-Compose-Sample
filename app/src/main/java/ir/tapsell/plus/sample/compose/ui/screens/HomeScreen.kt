@@ -80,6 +80,15 @@ fun HomeScreen(
             ) {
                 Text(text = "Native Banner Ad")
             }
+
+            Button(
+                modifier = Modifier.fillMaxWidth(BUTTON_WIDTH),
+                onClick = {
+                    navController.navigate(Routes.PRE_ROLL)
+                }
+            ) {
+                Text(text = "PreRoll Ad")
+            }
         }
     }
 }

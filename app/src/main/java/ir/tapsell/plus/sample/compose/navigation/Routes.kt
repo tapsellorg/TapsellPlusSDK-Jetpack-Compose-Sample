@@ -14,5 +14,5 @@ object Routes {
 
     const val STANDARD_BANNER = "standard_banner"
 
-    const val VAST_PREROLL = "vast_preroll"
+    const val PRE_ROLL = "pre_roll"
 }
