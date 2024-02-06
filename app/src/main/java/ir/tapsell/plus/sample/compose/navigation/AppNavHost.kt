@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import ir.tapsell.plus.sample.compose.ui.screens.HomeScreen
 import ir.tapsell.plus.sample.compose.ui.screens.InterstitialScreen
 import ir.tapsell.plus.sample.compose.ui.screens.NativeBannerScreen
+import ir.tapsell.plus.sample.compose.ui.screens.PreRollScreen
 import ir.tapsell.plus.sample.compose.ui.screens.RewardedVideoScreen
 import ir.tapsell.plus.sample.compose.ui.screens.StandardBannerScreen
 
@@ -41,6 +42,10 @@ fun AppNavHost(
 
         composable(Routes.STANDARD_BANNER) {
             StandardBannerScreen()
+        }
+
+        composable(Routes.PRE_ROLL) {
+            PreRollScreen()
         }
     }
 }

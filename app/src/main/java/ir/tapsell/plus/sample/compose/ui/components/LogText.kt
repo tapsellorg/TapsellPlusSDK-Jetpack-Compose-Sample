@@ -14,7 +14,6 @@ fun LogText(
     Text(
         modifier = modifier.fillMaxWidth(),
         text = text,
-        textAlign = TextAlign.Center,
-        maxLines = 5
+        textAlign = TextAlign.Center
     )
 }
